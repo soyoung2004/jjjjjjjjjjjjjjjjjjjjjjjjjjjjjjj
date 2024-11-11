@@ -1,3 +1,5 @@
+"homepage": "https://soyoung2004.github.io/your-repository-name"
+
 {
   "name": "clapy-react",
   "version": "1.0.0",
@@ -23,6 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
